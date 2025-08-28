@@ -1,0 +1,92 @@
+[
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "population": 1393409038,
+    "languages": ["Hindi", "English"],
+    "currency": "Indian Rupee (INR)",
+    "flag": "https://flagcdn.com/in.svg"
+  },
+  {
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "population": 331893745,
+    "languages": ["English"],
+    "currency": "United States Dollar (USD)",
+    "flag": "https://flagcdn.com/us.svg"
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "population": 67413000,
+    "languages": ["French"],
+    "currency": "Euro (EUR)",
+    "flag": "https://flagcdn.com/fr.svg"
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "Americas",
+    "population": 214326223,
+    "languages": ["Portuguese"],
+    "currency": "Brazilian Real (BRL)",
+    "flag": "https://flagcdn.com/br.svg"
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "population": 125960000,
+    "languages": ["Japanese"],
+    "currency": "Japanese Yen (JPY)",
+    "flag": "https://flagcdn.com/jp.svg"
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "population": 83240000,
+    "languages": ["German"],
+    "currency": "Euro (EUR)",
+    "flag": "https://flagcdn.com/de.svg"
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "population": 26068700,
+    "languages": ["English"],
+    "currency": "Australian Dollar (AUD)",
+    "flag": "https://flagcdn.com/au.svg"
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "population": 38929902,
+    "languages": ["English", "French"],
+    "currency": "Canadian Dollar (CAD)",
+    "flag": "https://flagcdn.com/ca.svg"
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "population": 60142978,
+    "languages": ["Xhosa", "Afrikaans"],
+    "currency": "South African Rand (ZAR)",
+    "flag": "https://flagcdn.com/za.svg"
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "population": 109262178,
+    "languages": ["Arabic"],
+    "currency": "Egyptian Pound (EGP)",
+    "flag": "https://flagcdn.com/eg.svg"
+  }
+]
