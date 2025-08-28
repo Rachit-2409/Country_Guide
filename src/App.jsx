@@ -14,6 +14,7 @@ function App() {
     {
       path: "/",
       element: <Layout />,
+      
       children: [
         {
           path: "/",

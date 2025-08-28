@@ -4,9 +4,10 @@ import { Outlet } from 'react-router-dom'
 import Loader from './Loader.jsx'
 import { useNavigation } from 'react-router-dom'
 const Layout = ()=>{
-      const navigation = useNavigation()
+      const navigation = useNavigation();
 
   if (navigation.state === "loading") return <Loader/>
+
     return (
         
         <>
