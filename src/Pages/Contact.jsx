@@ -28,18 +28,18 @@ const [result, setResult] = React.useState("");
 
   return (
     <div className='h-[70vh] w-[100%] flex justify-center items-center flex-col'>
-      <form onSubmit={onSubmit}>
-        <div className='w-full'>
-        <input className='w-[100%] border-2 border-neutral-600' type="text" name="name" required/>
+      <form onSubmit={onSubmit} className='w-84'>
+        <div className='w-[100%]'>
+        <input className='w-[100%] border-2 border-neutral-600 mb-2 p-2 rounded-lg' type="text" name="name" placeholder='Name' required/>
         </div>
         <div>
-        <input type="email" name="email" required/>
+        <input className='w-[100%] border-2 border-neutral-600 mb-2 p-2 rounded-lg' type="email" name="email"placeholder='Email' required/>
         </div>
         <div>
-        <textarea name="message" required></textarea>
+        <textarea className='w-[100%] border-2 border-neutral-600 mb-2 p-2 rounded-lg' name="message" placeholder='Message' rows={8}required></textarea>
         </div>
 
-        <button type="submit">Submit Form</button>
+        <button type="submit" className='border-2 cursor-pointer border-neutral-800 bg-neutral-600 p-2 rounded-lg'>Submit Form</button>
 
       </form>
       <span>{result}</span>
