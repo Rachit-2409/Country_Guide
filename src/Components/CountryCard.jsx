@@ -14,7 +14,7 @@ const CountryCard = () => {
       setCountryDetail(response.data[0]);
     };
     fetchData();
-  }, [id]); // added id as dependency
+  }, [id]); 
 
   console.log(CountryDetail);
   return (
@@ -61,7 +61,7 @@ const CountryCard = () => {
             </button>
           </a>
         </div>
-     <NavLink to='/country'><button className="p-3 rounded-lg bg-neutral-700 absolute bottom-5 lg:bottom-10 right-10"><BsArrowLeft /></button></NavLink>   
+     <NavLink to='/country'><button className="p-3  cursor-pointer rounded-lg bg-neutral-700 absolute bottom-5 lg:bottom-10 right-10"><BsArrowLeft /></button></NavLink>   
       </div>
     )
   );
